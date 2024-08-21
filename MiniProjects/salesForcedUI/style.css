@@ -186,5 +186,151 @@ html,body{
 #page2{
     height: 87%;
     width: 100%;
-    background-color: gray;
+    background-color: white;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#Cards{
+    width: 100%;
+    height: 67%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(221, 251, 250);
+
+
+}
+.card1{
+    width: 16%;
+    height: 90%;
+    background-color: white;
+    margin: 15px;
+    border-radius: 20px;
+    border: 2px ;
+    
+}
+.card1 img{
+    border-radius: 20px;
+}
+.card1 h3{
+    color: rgb(4, 4, 107);
+    padding-left: 20px;
+}
+.card1 p{
+    text-align: left;
+    font-size: medium;
+    padding: 30px;
+    font-weight: lighter;
+}
+.card1 h4{
+    color: rgb(4, 4, 107);
+    padding-left: 20px;
+
+}
+.card2{
+    width: 16%;
+    height: 90%;
+    background-color: white;
+    margin: 15px;
+    border-radius: 20px;
+    border: 2px ;
+}
+.card2 img{
+    border-radius: 20px;
+}
+.card2 h3{
+    color: rgb(4, 4, 107);
+    padding-left: 20px;
+}
+.card2 p{
+    text-align: left;
+    font-size: medium;
+    padding: 30px;
+    font-weight: lighter;
+}
+.card2 h4{
+    color: rgb(4, 4, 107);
+    padding-left: 20px;
+}
+.card3{
+    width: 16%;
+    height: 90%;
+    background-color: white;
+    margin: 15px;
+    border-radius: 20px;
+    border: 2px ;
+    
+}
+.card3 img{
+    border-radius: 20px;
+}
+.card3 h3{
+    color: rgb(4, 4, 107);
+    padding-left: 20px;
+}
+.card3 p{
+    text-align: left;
+    font-size: medium;
+    padding: 30px;
+    font-weight: lighter;
+}
+.card3 h4{
+    color: rgb(4, 4, 107);
+    padding-left: 20px;
+}
+.card4{
+    width: 16%;
+    height: 90%;
+    background-color: white;
+    margin: 15px;
+    border-radius: 20px;
+    border: 2px ;
+}
+.card4 img{
+    border-radius: 20px;
+}
+.card4 h3{
+    color: rgb(4, 4, 107);
+    padding-left: 20px;
+}
+.card4 p{
+    text-align: left;
+    font-size: medium;
+    padding: 30px;
+    font-weight: lighter;
+}
+.card4 h4{
+    color: rgb(4, 4, 107);
+    padding-left: 20px;
+}
+
+#main img{
+    width: 100%;
+    height: 40%;
+}
+#btn{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+}
+#butten{
+    width: 200px;
+    height: 90%;
+    padding: 20px;
+    margin: 200px;
+    text-align: center;
+    color: rgb(7, 135, 177);
+    border: solid rgb(7, 135, 177);
+    border-radius: 10px;
+}
+
+#butten:hover{
+    border: solid green;
+    color: rgb(7, 64, 177);
 }
