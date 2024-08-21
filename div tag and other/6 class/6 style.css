@@ -1,0 +1,18 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+/* for div 
+    id-> '#' 
+    class -> '.'  */
+.colorFont{
+    color: blueviolet;
+    text-align: center;
+    font-weight: bolder; /*to make text bold*/
+}

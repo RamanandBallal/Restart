@@ -1,0 +1,21 @@
+/* every css file start with margine = 0% and paddinf=0% and html and body's width and height should be 100%  */
+
+*{
+    margin: 0%;
+    padding: 0%;
+}/*this two are compusary to right and *{} meanse aply to all page*/
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: rgb(237, 185, 168);
+}
+
+div{
+    background-color: aqua;
+    width: 50%;
+    height: 50%;
+
+}

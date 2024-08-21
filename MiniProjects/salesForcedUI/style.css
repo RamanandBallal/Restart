@@ -1,0 +1,190 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/*I have created snnipet with name 'css'-enter then this boiler plate css code automatcally written  */
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#header{
+    width: 100%;    /* % size is depend on parent's size but vh is depend on screen size not on parents */
+                    /* height: 13vh;vh:depending on screen size or resolution the width/height can be adjusted */
+    height: 13%;
+    position: fixed;/*we want our headr position fixed when we are scrolling fron web page*/
+                    /*but drawback of position: fixed is the page1 will get reduced height of that given header ht(10vh)., pg1's that much ht is hidden below that headr
+                    so to avoid deduction in ht of given pg1 we have to provide fakeheader of same ht of original headr and then it will perfectly hide below original one and 
+                    the deduction in pg1 ht is eliminated, you can se fakeheader when you scroll up*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;/*insted of giving margin to every tag we gave space around , so it ill evenly seperated*/
+    background-color: white;
+}
+#logo{
+    height: 70%;/*it is 70% of headers ht*/
+ 
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.texts{
+
+    color: rgb(7, 7, 92);
+    display: flex;
+}
+.texts:hover{
+    color: rgb(7, 156, 156);
+}
+#contactDetails{
+    margin-left: 70px;
+    font-weight: lighter;
+}
+.icon{
+    margin-left: -30px;
+    padding: 10px;
+    border-radius: 50%;/*make it circuler*/
+}
+.icon:hover{
+    background-color: lightblue;
+
+}
+#login{
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+}
+#login:hover{
+    background-color: lightblue;
+}
+
+#try{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+#try:hover{
+    background-color: rgb(5, 37, 5);
+}
+/*Till this we have done with header of or web-page*/
+#fakeHeader{
+    width: 100%;
+    height: 13%;
+}
+
+#page1{
+    height: 87%;
+    width: 100%;
+
+}
+#strip{
+    width: 100%;
+    height: 8%;
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#strip u{
+    margin-left: 30px;
+    font-weight: lighter;
+}
+#content{
+    width: 100%;
+    height: 76%;
+    display: flex;/*to make these to boxex side aside*/
+    align-items: center;
+    justify-content: space-around;
+}
+#box1{
+    width: 47%;
+    height: 90%;
+    background-color:white ;
+}
+#box1 h1{
+    font-weight: 600px;
+    color: rgb(0, 0, 75);
+    font-size: 45px;
+    margin: 30px;
+}
+#box1 p{
+    font-size: x-large;
+    margin: 10px;
+    font-weight: lighter;
+
+}
+
+
+#heading{
+    width: 100%;
+    height: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(42, 42, 174, 0.932);
+}
+#heading h1{
+    font-weight: 600px;
+    color: rgb(0, 36, 99) ;
+} 
+#btns{
+    display: flex;
+}
+#button1{
+    margin: 20px;
+    width: 20%;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(0, 94, 255) ;
+    border: 1px solid lightblue;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#button2{
+    margin: 20px;
+    width: 20%;
+    padding: 10px 20px;
+    color: rgb(0, 94, 255) ;
+    border: 1px solid lightblue;
+    text-align: center;
+    border-radius: 5px;
+}
+#button2:hover{
+    border: 1px solid blue;
+    color: darkblue;
+}
+#box2{
+    width: 47%;
+    height: 90%;
+    background-color: lightcyan;
+    display: flex;
+    align-items: center;
+
+}
+#box2 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+#page2{
+    height: 87%;
+    width: 100%;
+    background-color: gray;
+}

@@ -1,0 +1,74 @@
+/*first step is to write boiler code for css*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100% ;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;   we are making 4 cards which come side by side by using this 3 steps  */
+
+}
+.card{
+    position: absolute;/*position: absolute : without using block and flex we can move current element, and need not to depend on parent like here parent is 'main', so we define our own function without using parents fun. flex*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);/*By using this top 4 steps our 4 cards will shown as 1 above 1(1 on 1) and by using flex it will be side by side */
+    height: 350px;
+    width: 250px;
+    border: 2px solid black;    
+    border-radius: 4% ;
+    overflow: hidden;/*images went out of border so we hide that corner by using this function */
+}
+/*z-index: z-index i.e z axis (3D)one on one . And the max z-index comes on top hence card 1 having '4' hence its on top then card2 card3 and card4 */
+#card1{
+    z-index: 4;
+    transform: translate(-50%,-50%) /*due to using this cards will rotate around its centre but 1st is 0deg*/
+}
+#card2:hover{
+    z-index: 10;/*when we move mouse over it it has to show hencewe hv to give z-index:as max to hover and we gave z-index:10 */
+}
+#card2{
+    z-index: 3;
+    transform: translate(-50%,-50%) rotate(-7deg);/*due to using this cards will rotate around its centre 2st is -7deg*/
+}
+#card3:hover{
+    z-index: 10;
+}
+#card3{
+    z-index: 2;
+    transform: translate(-50%,-50%) rotate(-14deg);/*due to using this cards will rotate around its centre 3rd is -14deg*/
+}
+#card4:hover{
+    z-index: 10;
+}
+#card4{
+    z-index: 1;
+    transform: translate(-50%,-50%) rotate(-21deg);/*due to using this cards will rotate around its centre but 4rth is  -21sdeg*/
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;/*make image fit properly without any strech */ 
+    
+}
+h1{/*heading style : optinal*/
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 47, 47);
+    background-color: rgb(230, 233, 47);
+    font-weight: bolder;
+    font-style: italic;
+    font-family: cursive;
+   
+}

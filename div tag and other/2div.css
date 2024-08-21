@@ -1,0 +1,27 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: rgb(237, 185, 168);
+}
+
+div{
+    width: 20%;
+    height: 20%;
+    font-size: xx-large;
+}/* % is depend on parents size i.e width of div is 20% of its parent (head)*/
+
+#Box1{
+    background-color: aqua;
+    
+}
+#Box2{
+    background-color: rgb(255, 94, 0);
+  }

@@ -1,0 +1,58 @@
+/* '*' is a universal selector */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/* upto this is a boiler code for css  i.e css standerds */
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.shape{
+    margin-left:10px ; margin-top: 10px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}/*we want some properties  same of these three shapes hence use class : "shape" insted of id */
+
+#square:hover{ /*due to hover , when we move our mouse cursor from that 
+                   square shape that time it only will show us red background shape   */
+    background-color: red;
+}
+#circle:hover{
+    background-color: blue;
+}
+
+#circle{
+    border-radius: 50%; /*this make a circuler shape*/
+}
+#diamond:hover{
+    background-color: green;
+}
+#diamond{
+    rotate: 45deg;
+    margin-top: 50px;
+    /*daimond's size reduced in following steps :optional*/
+    width: 145px;
+    height: 145px;
+    translate: 20px;
+}
+
+#diamond h1{ /* selected h1 whose id is daimond and roated it -45 because with fig our content get roatated, so that to make it normal this step is done */
+    rotate: -45deg;
+}
