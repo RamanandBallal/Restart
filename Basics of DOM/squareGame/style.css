@@ -35,3 +35,10 @@ html,body{
     margin-top: 10px;
     margin-left: 10px;
 }
+#cursor{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: rgb(53, 80, 9);
+    position: absolute;
+}

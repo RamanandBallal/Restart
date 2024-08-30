@@ -62,11 +62,19 @@ s4.addEventListener("mouseleave", function () {
 
 //box 4-2 ---> on click of box 1 box 4's say's hello ramanand
 let s5 = document.getElementById("sq4");
-s1.addEventListener("click", function () {
+s1.addEventListener("dblclick", function () {
+  //doubleclick
   s5.innerHTML = `<h1>Welcome To JavaScript</h1>`;
   s5.style.backgroundColor = "lightcoral";
 });
 s5.addEventListener("mouseleave", function () {
   s5.innerHTML = "<h1>4</h1>";
   s5.style.backgroundColor = "white";
+});
+let main = document.getElementById("main");
+let cursor = document.getElementById("cursor");
+main.addEventListener("mousemove", function (dets) {
+  console.log(dets.x, dets.y);
+  cursor.style.left = dets.x + "px";
+  cursor.style.top = dets.y + "px";
 });
