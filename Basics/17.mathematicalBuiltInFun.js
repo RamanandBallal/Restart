@@ -40,3 +40,5 @@ console.log(num); //7.96594303993645
 //but we dont want decimal value , for this use floor fun in it
 let num1 = Math.floor(Math.random() * 10);
 console.log(num1); //8   .......
+
+console.log(Math.round(81.88)); //82
