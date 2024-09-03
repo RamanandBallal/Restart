@@ -1,0 +1,14 @@
+This is a simple hello project of react
+I use npx create-react-app basic --> command for creating first project
+then
+I have created second project using vite
+eg--> npm create vite@latest --instally created
+write project name i have written vitebasic
+select React
+select Javascript
+done
+now npm install
+npm run dev
+Local: http://localhost:5173/
+and used this project too
+By using vite project is created very faster than normal creation
